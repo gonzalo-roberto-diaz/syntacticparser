@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head><title>Análisis Sintáctico</title>
+    <meta charset="UTF-8">
+    <style>.syn-table {
+        border-collapse: collapse;
+        width: auto;
+        table-layout: auto;
+        margin: 0 auto;
+    }
+
+    .syn-table td {
+        border: none;
+        text-align: center;
+        padding: 2px 8px 0 8px;
+        font-family: sans-serif;
+        height: 25px;
+        white-space: nowrap;
+        min-width: 40px;
+    }
+
+    .syn-table .syn-word-row td {
+        border: none;
+        font-weight: bold;
+        height: auto;
+        padding-bottom: 2px;
+        min-width: 40px;
+    }
+
+    .syn-table .syn-high-level-row td {
+        height: 30px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        min-width: 40px;
+    }
+
+    .syn-table .syn-high-level-line {
+        border-top: 2px solid black;
+        position: relative;
+        display: block;
+        height: 100%;
+        min-width: 60px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .syn-table .syn-low-level-line {
+        border-bottom: 2px solid black;
+        position: relative;
+        display: block;
+        height: 100%;
+        min-width: 60px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .syn-table .syn-low-label {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 100%);
+        font-size: 0.7em;
+        font-weight: bold;
+        color: #004d40;
+        background-color: white;
+        padding: 1px 6px;
+        white-space: nowrap;
+        min-width: 30px;
+    }
+
+    .syn-table .syn-high-label {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -100%);
+        font-size: 0.7em;
+        font-weight: bold;
+        color: #004d40;
+        background-color: white;
+        padding: 1px 6px;
+        white-space: nowrap;
+        min-width: 30px;
+    }
+
+    .syn-table .syn-empty-cell {
+        border: none;
+    }</style>
+</head>
+<body>
+<table class='syn-table'>
+    <tr class='syn-word-row'>
+        <td>doː_tɪɦɑːiː</td>
+        <td>ʋɪdjɑːɾtʰiː</td>
+    </tr>
+    <tr>
+        <td colspan='1'>
+            <div class='syn-low-level-line'><span class='syn-low-label'>Atributo</span></div>
+        </td>
+        <td colspan='1'>
+            <div class='syn-low-level-line'><span class='syn-low-label'>Núcleo</span></div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
